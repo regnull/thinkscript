@@ -6,6 +6,8 @@
 #
 # MIT Licence https://opensource.org/licenses/MIT
 
+declare lower;
+
 input longLength = 252;
 input longColor = {"MAGENTA", "CYAN", "PINK", "LIGHT_GRAY", "ORANGE", "RED", "GREEN", default "GRAY", "WHITE"};
 input mediumLength = 60;
