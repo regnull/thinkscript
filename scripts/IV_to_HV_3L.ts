@@ -12,7 +12,6 @@ input mediumLength = 60;
 input mediumColor = {"MAGENTA", default "CYAN", "PINK", "LIGHT_GRAY", "ORANGE", "RED", "GREEN", "GRAY", "WHITE"};
 input shortLength = 20;
 input shortColor = {"MAGENTA", "CYAN", "PINK", "LIGHT_GRAY", "ORANGE", "RED", "GREEN", "GRAY", default "WHITE"};
-input signalLength = {"short", default "medium", "long"};
 
 def notDaily = if GetAggregationPeriod() <> AggregationPeriod.DAY then yes else no;
 
