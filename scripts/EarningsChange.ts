@@ -1,6 +1,6 @@
-# IVBAnads
+# EarningsChange
 # 
-# Shows bands separated by IV-implied stock movement as of some number of days ago.
+# Shows the percentage price change on earnings day.
 #
 # Copyright (c) 2020 Leonid Gorkin
 # regnull@gmail.com
